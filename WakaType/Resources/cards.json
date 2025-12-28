@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "kamiNoKu": "秋の田の 刈りほの庵の 苫をあらみ",
+    "shimoNoKu": "わが衣手は 露にぬれつつ",
+    "kamiNoKuKana": "あきのたの かりほのいほの とまをあらみ",
+    "shimoNoKuKana": "わがころもでは つゆにぬれつつ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 2,
+    "kamiNoKu": "春すぎて 夏来にけらし 白妙の",
+    "shimoNoKu": "衣ほすてふ 天の香具山",
+    "kamiNoKuKana": "はるすぎて なつきにけらし しろたへの",
+    "shimoNoKuKana": "ころもほすてふ あまのかぐやま",
+    "color": "pink",
+    "kimariji": 2
+  }
+]
