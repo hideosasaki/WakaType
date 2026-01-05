@@ -1,20 +1,902 @@
 [
   {
     "id": 1,
-    "kamiNoKu": "秋の田の 刈りほの庵の 苫をあらみ",
-    "shimoNoKu": "わが衣手は 露にぬれつつ",
-    "kamiNoKuKana": "あきのたの かりほのいほの とまをあらみ",
-    "shimoNoKuKana": "わがころもでは つゆにぬれつつ",
+    "kamiNoKu": "秋の田の　かりほの庵の　苫をあらみ",
+    "shimoNoKu": "わが衣手は　露にぬれつつ",
+    "kamiNoKuKana": "あきのたのかりほのいほのとまをあらみ",
+    "shimoNoKuKana": "わがころもではつゆにぬれつつ",
     "color": "blue",
     "kimariji": 1
   },
   {
     "id": 2,
-    "kamiNoKu": "春すぎて 夏来にけらし 白妙の",
-    "shimoNoKu": "衣ほすてふ 天の香具山",
-    "kamiNoKuKana": "はるすぎて なつきにけらし しろたへの",
-    "shimoNoKuKana": "ころもほすてふ あまのかぐやま",
+    "kamiNoKu": "春過ぎて　夏来にけらし　白妙の",
+    "shimoNoKu": "衣ほすてふ　天の香具山",
+    "kamiNoKuKana": "はるすぎてなつきにけらししろたへの",
+    "shimoNoKuKana": "ころもほすてふあまのかぐやま",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 3,
+    "kamiNoKu": "あしびきの　山鳥の尾の　しだり尾の",
+    "shimoNoKu": "ながながし夜を　ひとりかも寝む",
+    "kamiNoKuKana": "あしびきのやまどりのおのしだりおの",
+    "shimoNoKuKana": "ながながしよをひとりかもねむ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 4,
+    "kamiNoKu": "田子の浦に　うち出でて見れば　白妙の",
+    "shimoNoKu": "富士の高嶺に　雪は降りつつ",
+    "kamiNoKuKana": "たごのうらにうちいでてみればしろたへの",
+    "shimoNoKuKana": "ふじのたかねにゆきはふりつつ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 5,
+    "kamiNoKu": "奥山に　紅葉ふみ分け　鳴く鹿の",
+    "shimoNoKu": "声聞く時ぞ　秋は悲しき",
+    "kamiNoKuKana": "おくやまにもみぢふみわけなくしかの",
+    "shimoNoKuKana": "こゑきくときぞあきはかなしき",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 6,
+    "kamiNoKu": "かささぎの　渡せる橋に　置く霜の",
+    "shimoNoKu": "白きを見れば　夜ぞ更けにける",
+    "kamiNoKuKana": "かささぎのわたせるはしにおくしもの",
+    "shimoNoKuKana": "しろきをみればよぞふけにける",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 7,
+    "kamiNoKu": "天の原　ふりさけ見れば　春日なる",
+    "shimoNoKu": "三笠の山に　出でし月かも",
+    "kamiNoKuKana": "あまのはらふりさけみればかすがなる",
+    "shimoNoKuKana": "みかさのやまにいでしつきかも",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 8,
+    "kamiNoKu": "わが庵は　都のたつみ　しかぞ住む",
+    "shimoNoKu": "世をうぢ山と　人は言ふなり",
+    "kamiNoKuKana": "わがいほはみやこのたつみしかぞすむ",
+    "shimoNoKuKana": "よをうぢやまとひとはいふなり",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 9,
+    "kamiNoKu": "花の色は　うつりにけりな　いたづらに",
+    "shimoNoKu": "わが身世にふる　ながめせし間に",
+    "kamiNoKuKana": "はなのいろはうつりにけりないたづらに",
+    "shimoNoKuKana": "わがみよにふるながめせしまに",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 10,
+    "kamiNoKu": "これやこの　行くも帰るも　別れては",
+    "shimoNoKu": "知るも知らぬも　逢坂の関",
+    "kamiNoKuKana": "これやこのゆくもかへるもわかれては",
+    "shimoNoKuKana": "しるもしらぬもあふさかのせき",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 11,
+    "kamiNoKu": "わたの原　八十島かけて　漕ぎ出でぬと",
+    "shimoNoKu": "人には告げよ　海人の釣舟",
+    "kamiNoKuKana": "わたのはらやそしまかけてこぎいでぬと",
+    "shimoNoKuKana": "ひとにはつげよあまのつりぶね",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 12,
+    "kamiNoKu": "天つ風　雲の通ひ路　吹きとぢよ",
+    "shimoNoKu": "乙女の姿　しばしとどめむ",
+    "kamiNoKuKana": "あまつかぜくものかよいじふきとじよ",
+    "shimoNoKuKana": "おとめのすがたしばしとどめむ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 13,
+    "kamiNoKu": "筑波嶺の　峰より落つる　男女川",
+    "shimoNoKu": "恋ぞ積もりて　淵となりぬる",
+    "kamiNoKuKana": "つくばねのみねよりおつるみなのがわ",
+    "shimoNoKuKana": "こいぞつもりてふちとなりぬる",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 14,
+    "kamiNoKu": "陸奥の　しのぶもぢずり　誰ゆゑに",
+    "shimoNoKu": "乱れそめにし　我ならなくに",
+    "kamiNoKuKana": "みちのくのしのぶもじずりたれゆえに",
+    "shimoNoKuKana": "みだれそめにしわれならなくに",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 15,
+    "kamiNoKu": "君がため　春の野に出でて　若菜摘む",
+    "shimoNoKu": "わが衣手に　雪は降りつつ",
+    "kamiNoKuKana": "きみがためはるののにいでてわかなつむ",
+    "shimoNoKuKana": "わがころもでにゆきはふりつつ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 16,
+    "kamiNoKu": "立ち別れ　因幡の山の　峰に生ふる",
+    "shimoNoKu": "まつとし聞かば　今帰り来む",
+    "kamiNoKuKana": "たちわかれいなばのやまのみねにおうる",
+    "shimoNoKuKana": "まつとしきかばいまかえりこむ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 17,
+    "kamiNoKu": "ちはやぶる　神代も聞かず　竜田川",
+    "shimoNoKu": "からくれなゐに　水くくるとは",
+    "kamiNoKuKana": "ちはやぶるかみよもきかずたつたがわ",
+    "shimoNoKuKana": "からくれないにみずくくるとは",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 18,
+    "kamiNoKu": "住の江の　岸に寄る波　よるさへや",
+    "shimoNoKu": "夢の通ひ路　人目よくらむ",
+    "kamiNoKuKana": "すみのえのきしによるなみよるさえや",
+    "shimoNoKuKana": "ゆめのかよいじひとめよくらむ",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 19,
+    "kamiNoKu": "難波潟　短き葦の　ふしの間も",
+    "shimoNoKu": "逢はでこの世を　過ぐしてよとや",
+    "kamiNoKuKana": "なにわがたみじかきあしのふしのまも",
+    "shimoNoKuKana": "あわでこのよをすぐしてよとや",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 20,
+    "kamiNoKu": "わびぬれば　今はた同じ　難波なる",
+    "shimoNoKu": "みをつくしても　逢はむとぞ思ふ",
+    "kamiNoKuKana": "わびぬればいまはたおなじなにはなる",
+    "shimoNoKuKana": "みをつくしてもあわんとぞおもう",
+    "color": "blue",
+    "kimariji": 1
+  },
+  {
+    "id": 21,
+    "kamiNoKu": "今来むと　いひしばかりに　長月の",
+    "shimoNoKu": "有明の月を　待ち出でつるかな",
+    "kamiNoKuKana": "いまこむといひしばかりにながつきの",
+    "shimoNoKuKana": "ありあけのつきをまちいでつるかな",
     "color": "pink",
-    "kimariji": 2
+    "kimariji": 1
+  },
+  {
+    "id": 22,
+    "kamiNoKu": "吹くからに　秋の草木の　しをるれば",
+    "shimoNoKu": "むべ山風を　嵐といふらむ",
+    "kamiNoKuKana": "ふくからにあきのくさきのしおるれば",
+    "shimoNoKuKana": "むべやまかぜをあらしというらん",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 23,
+    "kamiNoKu": "白露に　風の吹きしく　秋の野は",
+    "shimoNoKu": "つらぬきとめぬ　玉ぞ散りける",
+    "kamiNoKuKana": "しらつゆにかぜのふきしくあきののは",
+    "shimoNoKuKana": "つらぬきとめぬたまぞちりける",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 24,
+    "kamiNoKu": "忘らるる　身をば思はず　誓ひてし",
+    "shimoNoKu": "人の命の　惜しくもあるかな",
+    "kamiNoKuKana": "わすらるるみをばおもわずちかいてし",
+    "shimoNoKuKana": "ひとのいのちのおしくもあるかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 25,
+    "kamiNoKu": "浅茅生の　小野の篠原　忍ぶれど",
+    "shimoNoKu": "あまりてなどか　人の恋しき",
+    "kamiNoKuKana": "あさじうのをののしのはらしのぶれど",
+    "shimoNoKuKana": "あまりてなどかひとのこいしき",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 26,
+    "kamiNoKu": "由良の門を　渡る舟人　かぢを絶え",
+    "shimoNoKu": "ゆくへも知らぬ　恋のみちかな",
+    "kamiNoKuKana": "ゆらのとをわたるふなびとかじをたえ",
+    "shimoNoKuKana": "ゆくえもしらぬこいのみちかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 27,
+    "kamiNoKu": "八重葎　茂れる宿の　さびしきに",
+    "shimoNoKu": "人こそ見えね　秋は来にけり",
+    "kamiNoKuKana": "やえむぐらしげれるやどのさびしきに",
+    "shimoNoKuKana": "ひとこそみえねあきはきにけり",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 28,
+    "kamiNoKu": "み吉野の　山の白雪　ふみ分けて",
+    "shimoNoKu": "入りにし人の　跡ぞ恋しき",
+    "kamiNoKuKana": "みよしののやまのしらゆきふみわけて",
+    "shimoNoKuKana": "いりにしひとのあとぞこいしき",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 29,
+    "kamiNoKu": "山里は　冬ぞさびしさ　まさりける",
+    "shimoNoKu": "人目も草も　かれぬと思へば",
+    "kamiNoKuKana": "やまざとはふゆぞさびしさまさりける",
+    "shimoNoKuKana": "ひとめもくさもかれぬとおもえば",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 30,
+    "kamiNoKu": "心あてに　折らばや折らむ　初霜の",
+    "shimoNoKu": "置きまどはせる　白菊の花",
+    "kamiNoKuKana": "こころあてにおらばやおらんはつしもの",
+    "shimoNoKuKana": "おきまどわせるしらぎくのはな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 31,
+    "kamiNoKu": "ありま山　ゐなの笹原　風吹けば",
+    "shimoNoKu": "いでそよ人を　忘れやはする",
+    "kamiNoKuKana": "ありまやまいなのささはらかぜふけば",
+    "shimoNoKuKana": "いでそよひとをわすれやはする",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 32,
+    "kamiNoKu": "朝ぼらけ　宇治の川霧　たえだえに",
+    "shimoNoKu": "あらはれわたる　瀬々の網代木",
+    "kamiNoKuKana": "あさぼらけうじのかわぎりたえだえに",
+    "shimoNoKuKana": "あらわれわたるせぜのあじろぎ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 33,
+    "kamiNoKu": "久方の　光のどけき　春の日に",
+    "shimoNoKu": "しづごころなく　花の散るらむ",
+    "kamiNoKuKana": "ひさかたのひかりのどけきはるのひに",
+    "shimoNoKuKana": "しづごころなくはなのちるらむ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 34,
+    "kamiNoKu": "誰をかも　知る人にせむ　高砂の",
+    "shimoNoKu": "松も昔の　友ならなくに",
+    "kamiNoKuKana": "たれをかもしるひとにせむたかさごの",
+    "shimoNoKuKana": "まつもむかしのともならなくに",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 35,
+    "kamiNoKu": "人はいさ　心もしらず　ふるさとは",
+    "shimoNoKu": "花ぞ昔の　香ににほひける",
+    "kamiNoKuKana": "ひとはいさこころもしらずふるさとは",
+    "shimoNoKuKana": "はなぞむかしのかににほひける",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 36,
+    "kamiNoKu": "夏の夜は　まだ宵ながら　あけぬるを",
+    "shimoNoKu": "雲のいづこに　月宿るらむ",
+    "kamiNoKuKana": "なつのよはまだよひながらあけぬるを",
+    "shimoNoKuKana": "くものいづこにつきやどるらむ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 37,
+    "kamiNoKu": "白露に　風の吹きしく　秋の野は",
+    "shimoNoKu": "つらぬきとめぬ　玉ぞ散りける",
+    "kamiNoKuKana": "しらつゆにかぜのふきしくあきののは",
+    "shimoNoKuKana": "つらぬきとめぬたまぞちりける",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 38,
+    "kamiNoKu": "忘らるる　身をば思はず　誓ひてし",
+    "shimoNoKu": "人の命の　惜しくもあるかな",
+    "kamiNoKuKana": "わすらるるみをばおもわずちかいてし",
+    "shimoNoKuKana": "ひとのいのちのおしくもあるかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 39,
+    "kamiNoKu": "浅茅生の　小野の篠原　忍ぶれど",
+    "shimoNoKu": "あまりてなどか　人の恋しき",
+    "kamiNoKuKana": "あさぢふのをののしのはらしのぶれど",
+    "shimoNoKuKana": "あまりてなどかひとのこいしき",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 40,
+    "kamiNoKu": "忍ぶれど　色に出にけり　我が恋は",
+    "shimoNoKu": "ものや思ふと　人の問ふまで",
+    "kamiNoKuKana": "しのぶれどいろにいでにけりわがこいは",
+    "shimoNoKuKana": "ものやおもうとひとのとうまで",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 41,
+    "kamiNoKu": "恋すてふ　我が名はまだき　立ちにけり",
+    "shimoNoKu": "人知れずこそ　思ひそめしか",
+    "kamiNoKuKana": "こひすてふわがなはまだきたちにけり",
+    "shimoNoKuKana": "ひとしれずこそおもひそめしか",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 42,
+    "kamiNoKu": "契りきな　かたみに袖を　しぼりつつ",
+    "shimoNoKu": "末の松山　浪こさじとは",
+    "kamiNoKuKana": "ちぎりきなかたみにそでをしぼりつつ",
+    "shimoNoKuKana": "すへのまつやまなみこさじとは",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 43,
+    "kamiNoKu": "逢ひみての　後の心に　くらぶれば",
+    "shimoNoKu": "昔はものを　思はざりけり",
+    "kamiNoKuKana": "あひみてののちのこころにくらぶれば",
+    "shimoNoKuKana": "むかしはものをおもはざりけり",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 44,
+    "kamiNoKu": "逢ふことの　絶えてしなくば　なかなかに",
+    "shimoNoKu": "人をも身をも　恨みざらまし",
+    "kamiNoKuKana": "あふことのたえてしなくばなかなかに",
+    "shimoNoKuKana": "ひとをもみをもうらみざらまし",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 45,
+    "kamiNoKu": "哀れとも　いふべき人は　思ほえで",
+    "shimoNoKu": "身のいたづらに　なりぬべきかな",
+    "kamiNoKuKana": "あはれともいふべきひとはおもほえで",
+    "shimoNoKuKana": "みのいたづらになりぬべきかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 46,
+    "kamiNoKu": "由良の戸を　渡る舟人　かぢを絶え",
+    "shimoNoKu": "行方もしらぬ　恋の道かな",
+    "kamiNoKuKana": "ゆらのとをわたるふなびとかぢをたえ",
+    "shimoNoKuKana": "ゆくえもしらぬこいのみちかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 47,
+    "kamiNoKu": "八重葎　しげれる宿の　さびしきに",
+    "shimoNoKu": "人こそ見えね　秋は来にけり",
+    "kamiNoKuKana": "やえむぐらしげれるやどのさびしきに",
+    "shimoNoKuKana": "ひとこそみえねあきはきにけり",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 48,
+    "kamiNoKu": "風をいたみ　岩うつ浪の　おのれのみ",
+    "shimoNoKu": "砕けてものを　思ふ頃かな",
+    "kamiNoKuKana": "かぜをいたみいはうつなみのおのれのみ",
+    "shimoNoKuKana": "くだけてものをおもふころかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 49,
+    "kamiNoKu": "御垣守　衛士のたく火の　夜はもえ",
+    "shimoNoKu": "昼は消えつつ　物をこそ思へ",
+    "kamiNoKuKana": "みかきもりゑじのたくひのよるはもえ",
+    "shimoNoKuKana": "ひるはきえつつものをこそおもへ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 50,
+    "kamiNoKu": "君がため　惜しからざりし　命さへ",
+    "shimoNoKu": "長くもがなと　思ひけるかな",
+    "kamiNoKuKana": "きみがためをしからざりしいのちさへ",
+    "shimoNoKuKana": "ながくもがなとおもひけるかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 51,
+    "kamiNoKu": "かくとだに　えやはいぶきの　さしも草",
+    "shimoNoKu": "さしも知らじな　もゆる思ひを",
+    "kamiNoKuKana": "かくとだにえやはいぶきのさしもぐさ",
+    "shimoNoKuKana": "さしもしらじなもゆるおもひを",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 52,
+    "kamiNoKu": "明けぬれば　くるるものとは　知りながら",
+    "shimoNoKu": "なほ恨めしき　朝ぼらけかな",
+    "kamiNoKuKana": "あけぬればくるるものとはしりながら",
+    "shimoNoKuKana": "なほうらめしきあさぼらけかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 53,
+    "kamiNoKu": "嘆きつつ　獨りぬる夜の　明くるまは",
+    "shimoNoKu": "いかに久しき　ものとかは知る",
+    "kamiNoKuKana": "なげきつつひとりぬるよのあくるまは",
+    "shimoNoKuKana": "いかにひさしきものとかはしる",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 54,
+    "kamiNoKu": "忘れじの　行末までは　難ければ",
+    "shimoNoKu": "今日を限りの　命ともがな",
+    "kamiNoKuKana": "わすれじのゆくすえまではかたければ",
+    "shimoNoKuKana": "けふをかぎりのいのちともがな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 55,
+    "kamiNoKu": "瀧の音は　たえて久しく　なりぬれど",
+    "shimoNoKu": "名こそ流れて　なほ聞えけれ",
+    "kamiNoKuKana": "たきのおとはたえてひさしくなりぬれど",
+    "shimoNoKuKana": "なこそながれてなほきこえけれ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 56,
+    "kamiNoKu": "あらざらむ　此の世のほかの　思ひ出に",
+    "shimoNoKu": "今一たびの　逢ふこともがな",
+    "kamiNoKuKana": "あらざらむこのよのほかのおもひでに",
+    "shimoNoKuKana": "いまひとたびのあふこともがな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 57,
+    "kamiNoKu": "廻り逢ひて　見しやそれとも　わかぬまに",
+    "shimoNoKu": "雲がくれにし　夜半の月かな",
+    "kamiNoKuKana": "めぐりあひてみしやそれともわかぬまに",
+    "shimoNoKuKana": "くもがくれにしよはのつきかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 58,
+    "kamiNoKu": "有馬山　ゐなの笹原　風吹けば",
+    "shimoNoKu": "いでそよ人を　忘れやはする",
+    "kamiNoKuKana": "ありまやまいなのささはらかぜふけば",
+    "shimoNoKuKana": "いでそよひとをわすれやはする",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 59,
+    "kamiNoKu": "やすらはで　寝なましものを　小夜更けて",
+    "shimoNoKu": "傾くまでの　月を見しかな",
+    "kamiNoKuKana": "やすらはでねなましものをさよふけて",
+    "shimoNoKuKana": "かたぶくまでのつきをみしかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 60,
+    "kamiNoKu": "大江山　いく野の道の　遠ければ",
+    "shimoNoKu": "まだふみも見ず　天の橋立",
+    "kamiNoKuKana": "おほえやまいくののみちのとほければ",
+    "shimoNoKuKana": "まだふみもみずあまのはしだて",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 61,
+    "kamiNoKu": "古への　奈良の都の　八重ざくら",
+    "shimoNoKu": "今日九重に　匂ひぬるかな",
+    "kamiNoKuKana": "いにしへのならのみやこのやえざくら",
+    "shimoNoKuKana": "けふここのへににほひぬるかな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 62,
+    "kamiNoKu": "夜をこめて　鳥のそら音は　はかるとも",
+    "shimoNoKu": "世に逢坂の　関はゆるさじ",
+    "kamiNoKuKana": "よをこめてとりのそらねははかるとも",
+    "shimoNoKuKana": "よにあうさかのせきはゆるさじ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 63,
+    "kamiNoKu": "今はただ　思ひ絶えなむ　とばかりを",
+    "shimoNoKu": "人づてならで　言ふよしもがな",
+    "kamiNoKuKana": "いまはただおもいたえなむとばかりを",
+    "shimoNoKuKana": "ひとづてならでいふよしもがな",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 64,
+    "kamiNoKu": "朝ぼらけ　宇治の川霧　たえだえに",
+    "shimoNoKu": "あらはれ渡る　瀬々の網代木",
+    "kamiNoKuKana": "あさぼらけうじのかわぎりたえだえに",
+    "shimoNoKuKana": "あらはれわたるせぜのあじろぎ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 65,
+    "kamiNoKu": "恨みわび　干さぬ袖だに　あるものを",
+    "shimoNoKu": "恋に朽ちなむ　名こそ惜しけれ",
+    "kamiNoKuKana": "うらみわびほさぬそでだにあるものを",
+    "shimoNoKuKana": "こひにくちなむなこそをしけれ",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 66,
+    "kamiNoKu": "諸共に　あはれと思へ　山ざくら",
+    "shimoNoKu": "花よりほかに　知る人もなし",
+    "kamiNoKuKana": "もろともにあはれとおもへやまざくら",
+    "shimoNoKuKana": "はなよりほかにしるひともなし",
+    "color": "pink",
+    "kimariji": 1
+  },
+  {
+    "id": 67,
+    "kamiNoKu": "春の夜の　夢ばかりなる　手枕に",
+    "shimoNoKu": "かひなく立たむ　名こそ惜しけれ",
+    "kamiNoKuKana": "はるのよのゆめばかりなるたまくらに",
+    "shimoNoKuKana": "かひなくたたむなこそをしけれ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 68,
+    "kamiNoKu": "心にも　あらで憂世に　ながらへば",
+    "shimoNoKu": "恋しかるべき　夜半の月かな",
+    "kamiNoKuKana": "こころにもあらでうきよにながらへば",
+    "shimoNoKuKana": "こひしかるべきよはのつきかな",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 69,
+    "kamiNoKu": "嵐ふく　三室の山の　もみぢ葉は",
+    "shimoNoKu": "龍田の川の　錦なりけり",
+    "kamiNoKuKana": "あらしふくみむろのやまのもみぢばは",
+    "shimoNoKuKana": "たつたのかはのにしきなりけり",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 70,
+    "kamiNoKu": "寂しさに　宿を立ち出でて　眺むれば",
+    "shimoNoKu": "いづくも同じ　秋の夕暮",
+    "kamiNoKuKana": "さびしさにやどをたちいでてながむれば",
+    "shimoNoKuKana": "いづくもおなじあきのゆふぐれ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 71,
+    "kamiNoKu": "夕されば　門田の稲葉　訪れて",
+    "shimoNoKu": "あしのまろやに　秋風ぞ吹く",
+    "kamiNoKuKana": "ゆふさればかどたのいなばおとづれて",
+    "shimoNoKuKana": "あしのまろやにあきかぜぞふく",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 72,
+    "kamiNoKu": "音に聞く　高師の浜の　あだ浪は",
+    "shimoNoKu": "かけじや袖の　ぬれもこそすれ",
+    "kamiNoKuKana": "おとにきくたかしのはまのあだなみは",
+    "shimoNoKuKana": "かけじやそでのぬれもこそすれ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 73,
+    "kamiNoKu": "高砂の　尾の上の桜　咲きにけり",
+    "shimoNoKu": "外山の霞　立たずもあらなむ",
+    "kamiNoKuKana": "たかさごのおのへのさくらさきにけり",
+    "shimoNoKuKana": "とやまのかすみたたずもあらなむ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 74,
+    "kamiNoKu": "うかりける　人を初瀬の　山おろし",
+    "shimoNoKu": "はげしかれとは　祈らぬものを",
+    "kamiNoKuKana": "うかりけるひとをはつせのやまおろし",
+    "shimoNoKuKana": "はげしかれとはいのらぬものを",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 75,
+    "kamiNoKu": "契りおきし　させもが露を　命にて",
+    "shimoNoKu": "あはれ今年の　秋も去ぬめり",
+    "kamiNoKuKana": "ちぎりおきしさせもがつゆをいのちにて",
+    "shimoNoKuKana": "あはれことしのあきもいぬめり",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 76,
+    "kamiNoKu": "わたの原　漕ぎ出でて見れば　久方の",
+    "shimoNoKu": "雲居にまがふ　沖つ白浪",
+    "kamiNoKuKana": "わたのはらこぎいでてみればひさかたの",
+    "shimoNoKuKana": "くもゐにまがふおきつしらなみ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 77,
+    "kamiNoKu": "瀬を早み　岩にせかるる　滝川の",
+    "shimoNoKu": "われても末に　逢はむとぞ思ふ",
+    "kamiNoKuKana": "せをはやみいはにせかるるたきがはの",
+    "shimoNoKuKana": "われてもすゑにあはむとぞおもふ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 78,
+    "kamiNoKu": "淡路島　かよふ千鳥の　鳴く声に",
+    "shimoNoKu": "いくよ寝覚めぬ　須磨の関守",
+    "kamiNoKuKana": "あはぢしまかよふちどりのなくこゑに",
+    "shimoNoKuKana": "いくよねざめぬすまのせきもり",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 79,
+    "kamiNoKu": "秋風に　たなびく雲の　絶間より",
+    "shimoNoKu": "もれ出づる月の　影のさやけさ",
+    "kamiNoKuKana": "あきかぜにたなびくくものたえまより",
+    "shimoNoKuKana": "もれいづるつきのかけのさやけさ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 80,
+    "kamiNoKu": "ながからむ　心も知らず　黒髪の",
+    "shimoNoKu": "みだれて今朝は　ものをこそ思へ",
+    "kamiNoKuKana": "ながからむこころもしらずくろかみの",
+    "shimoNoKuKana": "みだれてけさはものをこそおもへ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 81,
+    "kamiNoKu": "ほととぎす　鳴きつる方を　眺むれば",
+    "shimoNoKu": "ただ有明の　月ぞ残れる",
+    "kamiNoKuKana": "ほととぎすなきつるかたをながむれば",
+    "shimoNoKuKana": "ただありあけのつきぞのこれる",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 82,
+    "kamiNoKu": "思ひわび　さても命は　あるものを",
+    "shimoNoKu": "憂きに堪へぬは　涙なりけり",
+    "kamiNoKuKana": "おもひわびさてもいのちはあるものを",
+    "shimoNoKuKana": "うきにたへぬはなみだなりけり",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 83,
+    "kamiNoKu": "世の中よ　道こそなけれ　思ひ入る",
+    "shimoNoKu": "山の奥にも　鹿ぞなくなる",
+    "kamiNoKuKana": "よのなかよみちこそなけれおもひいる",
+    "shimoNoKuKana": "やまのおくにもしかぞなくなる",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 84,
+    "kamiNoKu": "ながらへば　またこの頃や　しのばれむ",
+    "shimoNoKu": "憂しと見し世ぞ　今は恋しき",
+    "kamiNoKuKana": "ながらへばまたこのごろやしのばれむ",
+    "shimoNoKuKana": "うしとみしよぞいまはこひしき",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 85,
+    "kamiNoKu": "夜もすがら　もの思ふ頃は　明けやらで",
+    "shimoNoKu": "寝屋のひまさへ　つれなかりけり",
+    "kamiNoKuKana": "よもすがらものおもふころはあけやらで",
+    "shimoNoKuKana": "ねやのひまさへつれなかりけり",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 86,
+    "kamiNoKu": "嘆けとて　月やは物を　思はする",
+    "shimoNoKu": "かこち顔なる　我が涙かな",
+    "kamiNoKuKana": "なげけとてつきやはものをおもはする",
+    "shimoNoKuKana": "かこちかほなるわがなみだかな",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 87,
+    "kamiNoKu": "村雨の　露もまだひぬ　槙の葉に",
+    "shimoNoKu": "霧立ちのぼる　秋の夕暮",
+    "kamiNoKuKana": "むらさめのつゆもまだひぬまきのはに",
+    "shimoNoKuKana": "きりたちのぼるあきのゆふぐれ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 88,
+    "kamiNoKu": "難波江の　蘆のかりねの　一夜ゆゑ",
+    "shimoNoKu": "身をつくしてや　恋ひわたるべき",
+    "kamiNoKuKana": "なにはえのあしのかりねのひとよゆゑ",
+    "shimoNoKuKana": "みをつくしてやこひわたるべき",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 89,
+    "kamiNoKu": "玉の緒よ　絶えなば絶えね　ながらへば",
+    "shimoNoKu": "忍ぶることの　弱りもぞする",
+    "kamiNoKuKana": "たまのをよたえなばたえねながらへば",
+    "shimoNoKuKana": "しのぶることのよはりもぞする",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 90,
+    "kamiNoKu": "見せばやな　雄島のあまの　袖だにも",
+    "shimoNoKu": "濡れにぞ濡れし　色はかはらず",
+    "kamiNoKuKana": "みせばやなをじまのあまのそでだにも",
+    "shimoNoKuKana": "ぬれにぞぬれしいろはかわらず",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 91,
+    "kamiNoKu": "きりぎりす　鳴くや霜夜の　寒しろに",
+    "shimoNoKu": "衣かたしき　独りかも寝む",
+    "kamiNoKuKana": "きりぎりすなくやしもよのさむしろに",
+    "shimoNoKuKana": "ころもかたしきひとりかもねむ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 92,
+    "kamiNoKu": "わが袖は　潮干に見えぬ　沖の石の",
+    "shimoNoKu": "人こそ知らね　乾く間もなし",
+    "kamiNoKuKana": "わがそではしほひにみえぬおきのいしの",
+    "shimoNoKuKana": "ひとこそしらねかわくまもなし",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 93,
+    "kamiNoKu": "世の中は　常にもがもな　渚こぐ",
+    "shimoNoKu": "あまの小舟の　綱手かなしも",
+    "kamiNoKuKana": "よのなかはつねにもがもななぎさこぐ",
+    "shimoNoKuKana": "あまのおぶねのつなでかなしも",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 94,
+    "kamiNoKu": "春の夜の　夢ばかりなる　手枕に",
+    "shimoNoKu": "かひなく立たむ　名こそ惜しけれ",
+    "kamiNoKuKana": "はるのよのゆめばかりなるたまくらに",
+    "shimoNoKuKana": "かひいなくたたむなこそをしけれ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 95,
+    "kamiNoKu": "人もをし　人も恨めし　あぢきなく",
+    "shimoNoKu": "世を思ふゆゑに　もの思ふ身は",
+    "kamiNoKuKana": "ひともをしひともうらめしあぢきなく",
+    "shimoNoKuKana": "よをおもふゆゑにものおもふみは",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 96,
+    "kamiNoKu": "御垣守　衛士の焚く火の　夜は燃え",
+    "shimoNoKu": "昼は消えつつ　物をこそ思へ",
+    "kamiNoKuKana": "みかきもりゑじのたくひのよるはもえ",
+    "shimoNoKuKana": "ひるはきえつつものをこそおもへえ",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 97,
+    "kamiNoKu": "三笠の山に　出でし月かも",
+    "shimoNoKu": "みそぎぞ夏の　しるしなりける",
+    "kamiNoKuKana": "みかさのやまにいでしつきかも",
+    "shimoNoKuKana": "みそぎぞなつのしるしなりける",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 98,
+    "kamiNoKu": "風そよぐ　楢の小川の　夕暮れは",
+    "shimoNoKu": "みそぎぞ夏の　しるしなりける",
+    "kamiNoKuKana": "かぜそよぐならのをがわのゆうぐれは",
+    "shimoNoKuKana": "みそぎぞなつのしるしなりける",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 99,
+    "kamiNoKu": "人もをし　人も恨めし　あぢきなく",
+    "shimoNoKu": "世を思ふゆゑに　もの思ふ身は",
+    "kamiNoKuKana": "ひともをしひともうらめしあぢきなく",
+    "shimoNoKuKana": "よをおもふゆゑにものおもふみは",
+    "color": "orange",
+    "kimariji": 1
+  },
+  {
+    "id": 100,
+    "kamiNoKu": "風そよぐ　楢の小川の　夕暮れは",
+    "shimoNoKu": "みそぎぞ夏の　しるしなりける",
+    "kamiNoKuKana": "かぜそよぐならのをがわのゆうぐれは",
+    "shimoNoKuKana": "みそぎぞなつのしるしなりける",
+    "color": "orange",
+    "kimariji": 1
   }
 ]

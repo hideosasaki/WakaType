@@ -126,4 +126,65 @@ struct TypingEngineTests {
         #expect(engine.check(input: "koromohosuchou", target: target).isComplete)
         #expect(engine.check(input: "koromohosutefu", target: target).isComplete)
     }
+
+    @Test func testMixedRulesInSentence() {
+        // 「は」が2回出てくる場合、片方を 'wa'、もう片方を 'ha' で打っても正解になるべき
+        let target = "はは"
+        #expect(engine.check(input: "waha", target: target).isComplete)
+        #expect(engine.check(input: "hawa", target: target).isComplete)
+        #expect(engine.check(input: "haha", target: target).isComplete)
+        #expect(engine.check(input: "wawa", target: target).isComplete)
+    }
+
+    @Test func testDakutenHandakutenMatching() {
+        #expect(engine.check(input: "ga", target: "が").isComplete)
+        #expect(engine.check(input: "gi", target: "ぎ").isComplete)
+        #expect(engine.check(input: "gu", target: "ぐ").isComplete)
+        #expect(engine.check(input: "ge", target: "げ").isComplete)
+        #expect(engine.check(input: "go", target: "ご").isComplete)
+        
+        #expect(engine.check(input: "pa", target: "ぱ").isComplete)
+        #expect(engine.check(input: "pi", target: "ぴ").isComplete)
+        
+        #expect(engine.check(input: "da", target: "だ").isComplete)
+        #expect(engine.check(input: "de", target: "で").isComplete)
+        #expect(engine.check(input: "do", target: "ど").isComplete)
+    }
+
+    @Test func testYoonMatching() {
+        // 基本的な拗音
+        #expect(engine.check(input: "kya", target: "きゃ").isComplete)
+        #expect(engine.check(input: "kyu", target: "きゅ").isComplete)
+        #expect(engine.check(input: "kyo", target: "きょ").isComplete)
+        
+        // 複数パターンある拗音
+        #expect(engine.check(input: "sha", target: "しゃ").isComplete)
+        #expect(engine.check(input: "sya", target: "しゃ").isComplete)
+        
+        #expect(engine.check(input: "cha", target: "ちゃ").isComplete)
+        #expect(engine.check(input: "tya", target: "ちゃ").isComplete)
+        
+        #expect(engine.check(input: "ja", target: "じゃ").isComplete)
+        #expect(engine.check(input: "zya", target: "じゃ").isComplete)
+    }
+
+    @Test func testSokuonMatching() {
+        // 基本的な促音「っ」
+        #expect(engine.check(input: "kissa", target: "きっさ").isComplete)
+        #expect(engine.check(input: "happa", target: "はっぱ").isComplete)
+        #expect(engine.check(input: "matte", target: "まって").isComplete)
+        
+        // 促音の個別打ち（xtsu等）
+        #expect(engine.check(input: "kixtsusa", target: "きっさ").isComplete)
+        #expect(engine.check(input: "kitsu", target: "きっ").isComplete) // 語末
+    }
+
+    @Test func testComplexCombinationsMatching() {
+        // 拗音＋促音
+        #expect(engine.check(input: "kiccha", target: "きっちゃ").isComplete)
+        #expect(engine.check(input: "kissha", target: "きっしゃ").isComplete)
+        
+        // 混合
+        #expect(engine.check(input: "happa", target: "はっぱ").isComplete)
+    }
 }
