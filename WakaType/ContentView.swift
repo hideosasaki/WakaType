@@ -14,7 +14,9 @@ struct ContentView: View {
                         self.session = nil
                     }
                 } else {
-                    GameView(session: session)
+                    GameView(session: session) {
+                        self.session = nil
+                    }
                 }
             } else {
                 SettingsView(selectedColor: $selectedColor, timeLimit: $timeLimit, mode: $mode) {

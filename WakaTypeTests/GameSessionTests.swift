@@ -48,6 +48,29 @@ struct GameSessionTests {
         #expect(session.wrongCount == 1)
     }
     
+    @Test func testLastWrongInput() {
+        let session = createSession()
+
+        // 正解を入力するとlastWrongInputはnilになるべき
+        session.appendInput("sk1") // Assuming "sk1" is correct for the first card
+        session.submitCurrentInput()
+        #expect(session.lastWrongInput == nil)
+
+        // 暗記モードでの失敗はlastWrongInputに保持される
+        session.giveUp()
+        session.appendInput("incorrect")
+        session.submitCurrentInput()
+        #expect(session.lastWrongInput == "incorrect")
+
+        // タイムアウト時の入力保持
+        let session2 = createSession()
+        session2.appendInput("halfway")
+        session2.advanceTime(10) // Assuming timeLimit is 10, this will trigger timeout
+        #expect(session2.state == .memorizing)
+        #expect(session2.lastWrongInput == "halfway")
+        #expect(session2.currentInput == "")
+    }
+    
     @Test func testGiveUp() {
         let session = createSession()
         // 空入力を送信

@@ -24,13 +24,27 @@ struct KanaConversionTests {
         #expect(engine.convertToKana("ke") == "け")
         #expect(engine.convertToKana("ko") == "こ")
         
-        // さしすせそ
-        #expect(engine.convertToKana("sa") == "さ")
-        #expect(engine.convertToKana("shi") == "し")
-        #expect(engine.convertToKana("si") == "し")
-        #expect(engine.convertToKana("su") == "す")
-        #expect(engine.convertToKana("se") == "せ")
-        #expect(engine.convertToKana("so") == "そ")
+        // ざじずぜぞ
+        #expect(engine.convertToKana("za") == "ざ")
+        #expect(engine.convertToKana("ji") == "じ")
+        #expect(engine.convertToKana("zi") == "じ")
+        #expect(engine.convertToKana("zu") == "ず")
+        #expect(engine.convertToKana("ze") == "ぜ")
+        #expect(engine.convertToKana("zo") == "ぞ")
+
+        // ばびぶべぼ
+        #expect(engine.convertToKana("ba") == "ば")
+        #expect(engine.convertToKana("bi") == "び")
+        #expect(engine.convertToKana("bu") == "ぶ")
+        #expect(engine.convertToKana("be") == "べ")
+        #expect(engine.convertToKana("bo") == "ぼ")
+
+        // ぱぴぷぺぽ
+        #expect(engine.convertToKana("pa") == "ぱ")
+        #expect(engine.convertToKana("pi") == "ぴ")
+        #expect(engine.convertToKana("pu") == "ぷ")
+        #expect(engine.convertToKana("pe") == "ぺ")
+        #expect(engine.convertToKana("po") == "ぽ")
     }
     
     @Test func testDoubleConsonantsAndComplex() {

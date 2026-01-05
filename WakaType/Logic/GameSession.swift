@@ -24,9 +24,14 @@ class GameSession {
     var mode: InputMode
     var state: GameState = .playing
     var currentInput: String = ""
+    var lastWrongInput: String? = nil
     
     var displayedInput: String {
         engine.convertToKana(currentInput)
+    }
+
+    func convertToKana(_ romaji: String) -> String {
+        engine.convertToKana(romaji)
     }
     
     var correctCount: Int = 0
@@ -73,12 +78,17 @@ class GameSession {
         guard state == .playing else { return }
         remainingTime = max(0, remainingTime - seconds)
         if remainingTime <= 0 {
+            lastWrongInput = currentInput
+            currentInput = ""
             state = .memorizing
         }
     }
     
     func appendInput(_ string: String) {
         guard state == .playing || state == .memorizing else { return }
+        if lastWrongInput != nil {
+            lastWrongInput = nil
+        }
         currentInput += string
     }
     
@@ -109,9 +119,11 @@ class GameSession {
         let result = engine.check(input: input, target: targetString)
         if result.isComplete {
             correctCount += 1
+            lastWrongInput = nil
             nextCard()
         } else {
             wrongCount += 1
+            lastWrongInput = input
             // 不正解の場合は状態を維持して再入力を促す（仕様通り）
         }
     }
@@ -121,11 +133,16 @@ class GameSession {
         let result = engine.check(input: input, target: targetString)
         if result.isComplete {
             nextCard()
+        } else {
+            wrongCount += 1
+            lastWrongInput = input
         }
     }
     
     func giveUp() {
         giveUpCount += 1
+        lastWrongInput = currentInput
+        currentInput = ""
         state = .memorizing
     }
     
@@ -137,6 +154,7 @@ class GameSession {
         } else {
             state = .playing
             remainingTime = Double(timeLimit)
+            lastWrongInput = nil
         }
     }
 }

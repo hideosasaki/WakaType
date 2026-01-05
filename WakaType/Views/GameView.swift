@@ -2,6 +2,7 @@ import SwiftUI
 
 struct GameView: View {
     @Bindable var session: GameSession
+    var onHome: () -> Void
     @FocusState private var isFocused: Bool
     @State private var blink: Bool = true
     
@@ -9,6 +10,19 @@ struct GameView: View {
     
     var body: some View {
         VStack(spacing: 30) {
+            HStack {
+                Button(action: onHome) {
+                    Image(systemName: "house")
+                    Text("ホーム")
+                }
+                .buttonStyle(.plain)
+                .foregroundStyle(.secondary)
+                .padding(.leading)
+                
+                Spacer()
+            }
+            .padding(.top, 10)
+
             // タイマーメーター
             ProgressView(value: session.remainingTime, total: Double(session.timeLimit))
                 .progressViewStyle(.linear)
@@ -58,6 +72,13 @@ struct GameView: View {
                     .accessibilityIdentifier("inputArea")
                     .onTapGesture {
                         isFocused = true
+                    }
+                    
+                    if let lastWrong = session.lastWrongInput {
+                        Text("前回の入力：\(session.convertToKana(lastWrong))")
+                            .font(.system(size: 48, weight: .bold, design: .serif))
+                            .foregroundStyle(.red.opacity(0.8))
+                            .transition(.opacity)
                     }
                 }
             }
